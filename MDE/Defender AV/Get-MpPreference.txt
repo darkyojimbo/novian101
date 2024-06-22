@@ -1,0 +1,11 @@
+####
+Get-MpPreference
+
+####
+Get-MpPreference | findstr "DisableRealtimeMonitoring"
+DisableRealtimeMonitoring                             : False
+
+####
+Get-MpComputerStatus
+
+
