@@ -14,3 +14,6 @@ DeviceNetworkEvents
 ```
 > [!div class="mx-imgBorder"]
 > :::image type="content" source="Media/AdvancedHunting-DNSRecord.jpeg" alt-text="Query Sample" lightbox="Media/AdvancedHunting-DNSRecord.jpeg":::
+
+
+![alt text](Media/AdvancedHunting-DNSRecord.jpeg)
