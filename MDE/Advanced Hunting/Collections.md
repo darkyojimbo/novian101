@@ -1,8 +1,7 @@
 
+# Collection of Useful Advanced Hunting Query
 
-
-
-
+## Checking DNS Query Record from MDE
 ```kusto
 //Checking DNS Query Record from MDE
 DeviceNetworkEvents
