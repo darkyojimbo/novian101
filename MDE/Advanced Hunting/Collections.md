@@ -13,4 +13,4 @@ DeviceNetworkEvents
 | sort by Timestamp desc 
 ```
 > [!div class="mx-imgBorder"]
-> :::image type="content" source="AdvancedHunting-DNSRecord.jpeg" alt-text="Query Sample" lightbox="AdvancedHunting-DNSRecord.jpeg":::
+> :::image type="content" source="Media/AdvancedHunting-DNSRecord.jpeg" alt-text="Query Sample" lightbox="Media/AdvancedHunting-DNSRecord.jpeg":::
