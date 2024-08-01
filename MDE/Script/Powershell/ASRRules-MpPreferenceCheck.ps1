@@ -1,5 +1,4 @@
 # Check ASR Rules policy
-
 (Get-MpPreference).AttackSurfaceReductionRules_Ids | ForEach-Object { 
     $actionValue = (Get-MpPreference).AttackSurfaceReductionRules_Actions[$((Get-MpPreference).AttackSurfaceReductionRules_Ids.IndexOf($_))]
     $action = switch ($actionValue) {
@@ -12,3 +11,8 @@
     }
     [PSCustomObject]@{Id=$_; Action=$action} 
 } | Format-Table -Property Id, Action -AutoSize
+
+
+
+# Check ASR Rules - Simple version
+# (Get-MpPreference).AttackSurfaceReductionRules_Ids | ForEach-Object { [PSCustomObject]@{Id=$_; Action=(Get-MpPreference).AttackSurfaceReductionRules_Actions[$((Get-MpPreference).AttackSurfaceReductionRules_Ids.IndexOf($_))]} } | Format-Table -Property Id, Action
