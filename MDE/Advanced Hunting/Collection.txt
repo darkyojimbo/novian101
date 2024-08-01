@@ -12,3 +12,5 @@ DeviceNetworkEvents
 | project Timestamp, DeviceId, DeviceName, ActionType, Domain, Direction, RemoteIP,RemotePort , LocalIP, LocalPort, Protocol
 | sort by Timestamp desc 
 ```
+> [!div class="mx-imgBorder"]
+> :::image type="content" source="AdvancedHunting-DNSRecord.jpeg" alt-text="Query Sample" lightbox="AdvancedHunting-DNSRecord.jpeg":::
