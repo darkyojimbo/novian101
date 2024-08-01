@@ -12,4 +12,4 @@ DeviceNetworkEvents
 | project Timestamp, DeviceId, DeviceName, ActionType, Domain, Direction, RemoteIP,RemotePort , LocalIP, LocalPort, Protocol
 | sort by Timestamp desc 
 ```
-![alt text](media/AdvancedHunting-DNSRecord.jpeg)
+![Example Result](Media/AdvancedHunting-DNSRecord.jpeg)
